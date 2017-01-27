@@ -14,5 +14,7 @@ This code uses Python 2.7 and relies on the following standard libraries (all pa
 - sys
 - copy
 - argparse
+
 They can also be installed with pip.
+
 Additionally in order to create and save the mp4 file 
