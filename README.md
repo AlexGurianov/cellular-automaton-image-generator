@@ -33,8 +33,8 @@ To run... specify... The parameters --image must be specified
 
 To display Help run
 
-'''
+```
 python img_gen.py --h
-'''
+```
 
 You can specify the following optional parameters
