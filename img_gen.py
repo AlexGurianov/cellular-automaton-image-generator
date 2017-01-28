@@ -165,15 +165,18 @@ def read_image(path):
     for orientation in ExifTags.TAGS.keys():
         if ExifTags.TAGS[orientation] == 'Orientation':
             break
-    if im._getexif() is not None:
-        exif = dict(im._getexif().items())
+    try:
+        if im._getexif() is not None:
+            exif = dict(im._getexif().items())
 
-        if exif[orientation] == 3:
-            im = im.rotate(180, expand=True)
-        elif exif[orientation] == 6:
-            im = im.rotate(270, expand=True)
-        elif exif[orientation] == 8:
-            im = im.rotate(90, expand=True)
+            if exif[orientation] == 3:
+                im = im.rotate(180, expand=True)
+            elif exif[orientation] == 6:
+                im = im.rotate(270, expand=True)
+            elif exif[orientation] == 8:
+                im = im.rotate(90, expand=True)
+    except KeyError:
+        pass
     return im, im.size
 
 
