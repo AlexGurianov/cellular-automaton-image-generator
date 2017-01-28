@@ -21,9 +21,9 @@ This code uses Python 2.7 and relies on the following standard libraries (all pa
 - copy
 - argparse
 
-They can also be installed with pip.
+They can also be installed using pip.
 
-Additionally you will need to install either [ffmpeg](https://ffmpeg.org/) or [mencoder](http://www.mplayerhq.hu/design7/dload.html) in order to create and save the mp4 file.
+Additionally you will need to install either [ffmpeg](https://ffmpeg.org/) or [mencoder](http://www.mplayerhq.hu/design7/dload.html) to create and save the mp4 file.
 
 #### Usage
 
