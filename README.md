@@ -27,7 +27,7 @@ Additionally you will need to install either [ffmpeg](https://ffmpeg.org/) or [m
 
 #### Usage
 
-To start generation of the given image run the script from the command line with the following command passing the path to the image you wish to generate as a requiered `--image` argument. Add `--s` or `--save` flag to save image generation as a video file.
+To start generation of the given image download and run the script from the command line with the following command. Pass the path to the image you wish to generate as a requiered `--image` argument. Add `--s` or `--save` flag to save image generation as a video file.
 
 ```
 python img_gen.py --image "/path/to/image.jpg" --s
