@@ -30,7 +30,7 @@ Additionally you will need to install either [ffmpeg](https://ffmpeg.org/) or [m
 To start generation of the given image download and run the script from the command line with the following command. Pass the path to the image you wish to generate as a requiered `--image` argument. Add `--s` or `--save` flag to save image generation as a video file. Then wait for 'Generation finished' message.
 
 ```
-python img_gen.py --image "/path/to/image.jpg" --s
+python img_gen.py --image "/path/to/image" --s
 ```
 
 #### Parameters
@@ -43,10 +43,10 @@ python img_gen.py --h
 
 You can specify the following optional parameters
 
-- --size - size of the larger side for the output image, the other side would be calculated to preserve aspect ratio. Default value is 500.
-- --core - width and height of the central rectangular generating core (initial state of the automaton). Default is 100x100.
-- --dying - number of iterations for the automaton cells to die out when generation is finished. Default value is 20.
-- --disp - % of remaining undrawn pixels when image generation can be stopped. Default value is 0.1%.
-- --s/--save - flag for saving the mp4 file. If not set, you will watch an image being generated in real time (may be a bit slow).
-- --spath - path for saving the mp4 file. If not specified, video is saved to a file "animation.mp4" in the script directory.
-- --fps - frames per second in the video. Each frame corresponds to one step for the automaton. Default value is 20.
+- --size : size of the larger side for the output image, the other side would be calculated to preserve aspect ratio. Default value is 500.
+- --core : width and height of the central rectangular generating core (initial state of the automaton). Default is 100x100.
+- --dying : number of iterations for the automaton cells to die out when generation is finished. Default value is 20.
+- --disp : % of remaining undrawn pixels when image generation can be stopped. Default value is 0.1%.
+- --s/--save : flag for saving the mp4 file. If not set, you will watch an image being generated in real time (may be a bit slow).
+- --spath : path for saving the mp4 file. If not specified, video is saved to a file "animation.mp4" in the script directory.
+- --fps : frames per second in the video. Each frame corresponds to one step for the automaton. Default value is 20.
