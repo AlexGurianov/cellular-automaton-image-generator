@@ -8,8 +8,8 @@ The provided image is first preprocessed. Its edges are detected (using [Sobel f
 The image generation process can be saved as an mp4 video file. The end result may be fun to look at. Then if you like, you will be able to use any converter to create a gif.
 
 #### Example
-<img src="https://www.dropbox.com/s/oz9ghebw2mlo1fe/git_cat.jpg?dl=1" width=49% alt="cat image"> <img src="https://www.dropbox.com/s/yqrz4kc5iq3ibm4/ezgif.com-optimize%20%281%29.gif?dl=1" width=49% alt="cat gif">
-<br><br> The original image and the generated gif<br>
+<img src="https://www.dropbox.com/s/oz9ghebw2mlo1fe/git_cat.jpg?dl=1" width=49% alt="cat image"> <img src="https://www.dropbox.com/s/yqrz4kc5iq3ibm4/git_cat_gif.gif?dl=1" width=49% alt="cat gif">
+<br><br> Original image and gif converted from generated mp4<br>
 
 #### Requirements
 This code uses Python 2.7 and relies on the following standard libraries (all part of [Anaconda](https://www.continuum.io/downloads)):
