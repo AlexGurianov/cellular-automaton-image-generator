@@ -9,7 +9,7 @@ The image generation process can be saved as an mp4 video file. The end result m
 
 #### Example
 
-<img src="https://yadi.sk/i/JUfquSy23Bdnr5" width=49% height=300 alt="cat image"> <img src="https://yadi.sk/i/1y3pfMdM3BdnqA" width=49% height=300 alt="cat gif">
+<img src="https://www.dropbox.com/s/oz9ghebw2mlo1fe/git_cat.jpg?dl=0" width=49% height=300 alt="cat image"> <img src="https://www.dropbox.com/s/4bc7e6j0p3w7wx7/git_cat.gif?dl=0" width=49% height=300 alt="cat gif">
 <br><br> The original image and the generated gif<br>
 
 #### Requirements
