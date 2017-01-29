@@ -9,7 +9,7 @@ The image generation process can be saved as an mp4 video file. The end result m
 
 #### Example
 padding-top: 100%
-<img src="https://www.dropbox.com/s/oz9ghebw2mlo1fe/git_cat.jpg?dl=1" width=49% padding-top=100% alt="cat image"> <img src="https://www.dropbox.com/s/4bc7e6j0p3w7wx7/git_cat.gif?dl=1" width=49% height=300 alt="cat gif">
+<img src="https://www.dropbox.com/s/oz9ghebw2mlo1fe/git_cat.jpg?dl=1" width=49% alt="cat image"> <img src="https://www.dropbox.com/s/4bc7e6j0p3w7wx7/git_cat.gif?dl=1" width=49% alt="cat gif">
 <br><br> The original image and the generated gif<br>
 
 #### Requirements
