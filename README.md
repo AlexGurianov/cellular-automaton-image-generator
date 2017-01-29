@@ -9,7 +9,7 @@ The image generation process can be saved as an mp4 video file. The end result m
 
 #### Example
 <img src="https://www.dropbox.com/s/oz9ghebw2mlo1fe/git_cat.jpg?dl=1" width=49% alt="cat image"> <img src="https://www.dropbox.com/s/yqrz4kc5iq3ibm4/git_cat_gif.gif?dl=1" width=49% alt="cat gif">
-<br><br> Original image and gif converted from generated mp4<br>
+<br><br> Original image and gif converted from the generated mp4 file<br>
 
 #### Requirements
 This code uses Python 2.7 and relies on the following standard libraries (all part of [Anaconda](https://www.continuum.io/downloads)):
