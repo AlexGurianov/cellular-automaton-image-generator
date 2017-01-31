@@ -307,8 +307,10 @@ def render_image(im_path, size_larger, center_cize_v, dying_v, disp_v, save, spa
     if save or spath != '':
         if spath == '':
             spath = "animation.mp4"
-            anim.save(spath, fps=fps)
-            print 'Generation finished'
+        if not spath.endswith(".mp4"):
+            spath += ".mp4"
+        anim.save(spath, fps=fps)
+        print 'Generation finished'
     else:
         plt.show()
 
