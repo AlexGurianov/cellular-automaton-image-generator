@@ -12,7 +12,7 @@ The image generation process can be saved as an mp4 video file. The end result m
 <br><br> Original image and gif converted from the generated mp4 file<br>
 
 ### Requirements
-This code uses Python 2.7 and relies on the following standard libraries (all part of [Anaconda](https://www.continuum.io/downloads)):
+This code uses Python 2.7 and the following standard libraries (all part of [Anaconda](https://www.continuum.io/downloads)):
 - numpy
 - matplotlib
 - PIL
