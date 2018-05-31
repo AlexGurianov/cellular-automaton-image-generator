@@ -8,7 +8,7 @@ The provided image is first preprocessed. Its edges are detected (using [Sobel f
 The image generation process can be saved as an mp4 video file. The end result may be fun to look at. Then if you like, you will be able to use any converter to create a gif.
 
 ### Example
-<img src="https://www.dropbox.com/s/oz9ghebw2mlo1fe/git_cat.jpg?dl=1" width=49% alt="cat image"> <img src="https://www.dropbox.com/s/yqrz4kc5iq3ibm4/git_cat_gif.gif?dl=1" width=49% alt="cat gif">
+<img src="https://drive.google.com/file/d/1U6BFHDCie46ehcsGmwyb8BUbsPqDKskG/view?usp=sharing" width=49% alt="cat image"> <img src="https://www.dropbox.com/s/yqrz4kc5iq3ibm4/git_cat_gif.gif?dl=1" width=49% alt="cat gif">
 <br><br> Original image and gif converted from the generated mp4 file<br>
 
 ### Requirements
